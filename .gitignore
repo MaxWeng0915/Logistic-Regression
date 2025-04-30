@@ -1,0 +1,76 @@
+# ============================
+# Visual Studio
+# ============================
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+
+# ============================
+# Build artifacts
+# ============================
+[Bb]in/
+[Oo]bj/
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+*.obj
+*.exe
+*.dll
+*.lib
+*.pdb
+*.idb
+*.ilk
+*.log
+*.pch
+*.res
+
+# ============================
+# CMake generated files
+# ============================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+CMakeScripts/
+Testing/
+CTestTestfile.cmake
+install_manifest.txt
+
+# ============================
+# Qt or MOC/auto-gen files (if used)
+# ============================
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+
+# ============================
+# VTK-specific
+# ============================
+# VTK often generates intermediate files in build directory
+# Assuming VTK is external and built separately
+
+# ============================
+# PCL-specific
+# ============================
+# Nothing special needed unless you're building PCL yourself
+
+# ============================
+# General system/IDE files
+# ============================
+*.tmp
+*.bak
+*.swp
+*~
+Thumbs.db
+Desktop.ini
+
+# ============================
+# Git itself
+# ============================
+.git/
